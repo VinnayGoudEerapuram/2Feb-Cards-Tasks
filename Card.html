@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card - Tash</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+.card1{
+    width: 60%;
+    border: 2px solid black;
+    padding: 5%;
+    height: 200px;
+    justify-content: center;
+    text-wrap: wrap;
+    margin-top: 200px;
+    margin-left:100px;
+    box-shadow: 2px 3px 15px rgb(57, 122, 53);
+    border-radius: 20px;
+    border-color: whitesmoke;
+}
+.cardtwo{
+    width: 20%;
+    height: 500px;
+    border: 2px solid black;
+    padding: 2%;
+    box-shadow: 2px 3px 15px rgb(57, 122, 53);
+    position: relative;
+    left: 650px;
+    top: -450px;
+    background-color: white;
+border-radius: 20px;
+border-color: whitesmoke;
+}
+.circle{
+    /* border:10px solid rgb(89, 232, 56);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: rotate(90deg);
+    margin-left: 35px; 
+    border-top-color: yellow;
+    border-bottom-color: rgb(197, 236, 239);
+   border-left-color: green; */
+   width: 200px;
+    height: 200px;
+    background-image: conic-gradient(from 90deg, white 110deg 180deg,rgb(109, 229, 109) 180deg 275deg,white 275deg 280deg,green  280deg 335deg,white 330deg 340deg , rgb(241, 241, 60) 255deg );
+    border-radius: 50%;
+    border: 10px ;
+    position: relative;
+    left: 15%;
+    background-color: white;
+}
+.circletwo{
+    margin: 10%;
+    height: 180px;
+    width: 180px;
+    background-image: conic-gradient(white 0deg, white 360deg);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 34%;
+    left: 14%;
+}
+
+.dullgreen{
+     /* border: 10px solid rgb(56, 126, 56);
+    border-radius: 50%;
+    width: 200%;
+    height: 200%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(50deg);  */
+    /* width: 200px;
+    height: 200px;
+    border-radius: 50% 50% 0 0;
+    border: 10px solid rgb(246, 232, 37);
+    position: relative;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: black;
+    border-right-color: rgb(250, 216, 21); */
+}
+.score{
+    position: relative;
+    left: 110px;
+    font-size: 30px;
+    bottom: 150px;
+    right: 100px;
+}
+    .small{
+font-size: 15px;
+margin-left: 18px;
+margin-bottom: 13px;
+    }
+    
+.space{
+    letter-spacing: 5px;
+}
+.thick{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+.job{
+    text-align: center;
+}
+.buttons{
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 10px;
+    
+}
+.job-buttons{
+    height: 50px;
+    width: 120px;
+   justify-content: center;
+   background-image: linear-gradient(to right,rgb(120, 226, 118));
+border-radius: 10px;
+box-shadow:  2px 5px 10px grey;
+background-color: white;
+border-color: white;
+
+}
+.job-buttons:hover{
+    background-color: rgb(85, 235, 135);
+}
+.b-two{
+   margin-left: 8%;
+   border-radius: 20px;
+   background-color: white;
+   border-color: white;
+   height: 30px;
+   box-shadow: 2px 5px 10px grey;
+   width: 140px;
+   font-size: 15px;
+}
+.b-one{
+    width: 140px;
+    height: 30px;
+    border: 2px solid ;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 5px 10px grey;
+    font-size: 15px;
+}
+.b-one:hover{
+    background-color: grey;
+    color: black;
+}
+.b-two:hover{
+    background-color: black;
+    color: white;
+}
+.line{
+    position: relative;
+    bottom: 10px;
+}
+em{
+    padding-left: 50%;
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+    opacity: 0.5;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width:500px){
+    .card1{
+        background: rgb(127, 153, 34);
+    }
+}
+/* for mobiles */
+@media screen and (max-width:300px ){
+    .card1{
+        background: rgb(157, 214, 43);
+    }
+}
+
+</style>
+</head>
+<body>
+    <div class="card1">
+        <div class="cardd1">
+        <h1>Hi,</h1>
+        <p>Welcome to the new "my laerning" here at  W3schools.This  will be <br>your hub to all the tutorials we offer and your learning progress.
+        </p>
+        <p>We hope you will  continue to learn with us.</p>
+        <br><br>
+        <button class="b-one">continue</button>
+        <span><button class="b-two">browse tutorials</button></span>
+    </div> </div>
+    <div class="cardtwo">
+<div>
+<h1 class="job">Good job!</h1>
+<p class="job">Your score</p>
+
+<!-- 
+<div class="dullgreen"></div>
+<div class="green"></div>
+<div class="yellow"></div> -->
+
+
+<div class="circle"></div>
+<div class="circletwo"></div>
+<div class="score">
+<b class="space">1531</b>
+<p class="small">points</p>
+</div>
+
+
+
+
+<div class="buttons">
+<p >
+    score factors
+
+</p>
+
+<button class="job-buttons lightgreen">
+  <b class="thick">  823</b><p class="line">lessons read</p>
+</button>
+<span><button class="job-buttons white"><b class="thick">11 </b><i class="fa-solid fa-star"></i> <p class="line">stars collected</p></button></span><br><br>
+<button class="job-buttons green"><b class="thick">560 </b><p class="line">quiz points</p></button>
+<span><button class="job-buttons yellow"><b class="thick">148 </b><p class="line">exercise points</p></button></span>
+</div>
+    <em>Vinnay Goud</em>
+</body>
+</html>
